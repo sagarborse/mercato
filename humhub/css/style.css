@@ -843,10 +843,14 @@ textarea.placeholder {
   margin-top: 5px;
   width:140%;
 }
-.top_dropdown {
-  display: inline-block;
-  margin-right: 60px;
+
 }
+
+span.top_dropdown {
+  display: inline-block;
+  width: 19%;
+  margin-right: 9px;
+  margin-top: 6px;
 }
 
 
