@@ -158,13 +158,20 @@
 
 
             <div class="notifications pull-right">
-            Notification
                 <!-- global notifications dropdown -->
                 <?php $this->widget('application.modules_core.notification.widgets.NotificationListWidget'); ?>
 
                 <!-- Notification addon widget for modules -->
                 <?php $this->widget('application.widgets.NotificationAddonWidget', array('widgets' => array())); ?>
 
+            </div>
+
+            <div class="message_im notifications pull-right">
+                <div class="btn-group" style="margin-right:10%;">
+                    <a href="#" id="icon-notifications" data-toggle="dropdown">
+                        <icon class="fa fa-envelope" />
+                    </a>
+                </div>
             </div>
 
             <div class="listing pull-right" style=" margin-top: 6px;">
