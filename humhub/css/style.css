@@ -86,7 +86,7 @@ textarea {
 }
 #topbar-first {
   top: 0;
-  background-color: #7191a8;
+  background-color: #101010;
   z-index: 1030;
 }
 #topbar-first .nav > li > a:hover,
